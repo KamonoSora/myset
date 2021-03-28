@@ -1,0 +1,152 @@
+.btn1{
+    background-image:url(anim/tenYenGame/0.png);             /* 画像のURLを指定       */
+    background-repeat:  no-repeat;                /* 画像の繰り返しを指定  */              
+    width:500px;                                   /* 横幅のサイズを指定    */
+    height:75pX;                                 /* 縦幅のサイズを指定    */
+    border:transparent;
+}
+.btn1:hover{
+    background-image:url(anim/tenYenGame/100.png); 
+    animation: animHover1 0.28s;
+}
+.btn1:active{
+    background-image:url(anim/tenYenGame/100.png); 
+    box-shadow: 10px 10px 100px 100px rgba(255, 255, 255, 0.5) inset; 
+}
+@keyframes animHover1{
+    0% {
+        background-image:url(anim/tenYenGame/0.png); 
+    }
+    10% {
+        background-image:url(anim/tenYenGame/10.png); 
+    }
+    20% {
+        background-image:url(anim/tenYenGame/20.png); 
+    }
+    30% {
+        background-image:url(anim/tenYenGame/30.png); 
+    }
+    40% {
+        background-image:url(anim/tenYenGame/40.png); 
+    }
+    50% {
+        background-image:url(anim/tenYenGame/50.png); 
+    }
+    60% {
+        background-image:url(anim/tenYenGame/60.png); 
+    }
+    70% {
+        background-image:url(anim/tenYenGame/70.png); 
+    }
+    80% {
+        background-image:url(anim/tenYenGame/80.png); 
+    }
+    90% {
+        background-image:url(anim/tenYenGame/90.png); 
+    }
+    100% {
+        background-image:url(anim/tenYenGame/100.png); 
+    }
+}
+
+.btn2{
+    background-image:url(anim/Dicetopia/0.png);             /* 画像のURLを指定       */
+    background-repeat:  no-repeat;                /* 画像の繰り返しを指定  */              
+    width:1165px;                                   /* 横幅のサイズを指定    */
+    height:75pX;                                 /* 縦幅のサイズを指定    */
+    border:transparent;
+}
+.btn2:hover{
+    background-image:url(anim/Dicetopia/100.png); 
+    animation: animHover2 0.28s;
+}
+.btn2:active{
+    background-image:url(anim/Dicetopia/100.png); 
+    box-shadow: 10px 10px 100px 100px rgba(255, 255, 255, 0.5) inset; 
+}
+@keyframes animHover2{
+    0% {
+        background-image:url(anim/Dicetopia/0.png); 
+    }
+    10% {
+        background-image:url(anim/Dicetopia/10.png); 
+    }
+    20% {
+        background-image:url(anim/Dicetopia/20.png); 
+    }
+    30% {
+        background-image:url(anim/Dicetopia/30.png); 
+    }
+    40% {
+        background-image:url(anim/Dicetopia/40.png); 
+    }
+    50% {
+        background-image:url(anim/Dicetopia/50.png); 
+    }
+    60% {
+        background-image:url(anim/Dicetopia/60.png); 
+    }
+    70% {
+        background-image:url(anim/Dicetopia/70.png); 
+    }
+    80% {
+        background-image:url(anim/Dicetopia/80.png); 
+    }
+    90% {
+        background-image:url(anim/Dicetopia/90.png); 
+    }
+    100% {
+        background-image:url(anim/Dicetopia/100.png); 
+    }
+}
+
+.btn3{
+    background-image:url(anim/NewYear/0.png);             /* 画像のURLを指定       */
+    background-repeat:  no-repeat;                /* 画像の繰り返しを指定  */              
+    width:630px;                                   /* 横幅のサイズを指定    */
+    height:75pX;                                 /* 縦幅のサイズを指定    */
+    border:transparent;
+}
+.btn3:hover{
+    background-image:url(anim/NewYear/100.png); 
+    animation: animHover3 0.28s;
+}
+.btn3:active{
+    background-image:url(anim/NewYear/100.png); 
+    box-shadow: 10px 10px 100px 100px rgba(255, 255, 255, 0.5) inset; 
+}
+@keyframes animHover3{
+    0% {
+        background-image:url(anim/NewYear/0.png); 
+    }
+    10% {
+        background-image:url(anim/NewYear/10.png); 
+    }
+    20% {
+        background-image:url(anim/NewYear/20.png); 
+    }
+    30% {
+        background-image:url(anim/NewYear/30.png); 
+    }
+    40% {
+        background-image:url(anim/NewYear/40.png); 
+    }
+    50% {
+        background-image:url(anim/NewYear/50.png); 
+    }
+    60% {
+        background-image:url(anim/NewYear/60.png); 
+    }
+    70% {
+        background-image:url(anim/NewYear/70.png); 
+    }
+    80% {
+        background-image:url(anim/NewYear/80.png); 
+    }
+    90% {
+        background-image:url(anim/NewYear/90.png); 
+    }
+    100% {
+        background-image:url(anim/NewYear/100.png); 
+    }
+}
