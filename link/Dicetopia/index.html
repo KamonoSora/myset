@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Unity WebGL Player | DICETOPIA</title>
+    <link rel="shortcut icon" href="TemplateData/favicon.ico">
+    <link rel="stylesheet" href="TemplateData/style.css">
+    <script src="TemplateData/UnityProgress.js"></script>
+    <script src="Build/UnityLoader.js"></script>
+    <script>
+      var unityInstance = UnityLoader.instantiate("unityContainer", "Build/Dicetopia.json", {onProgress: UnityProgress});
+    </script>
+  </head>
+  <body>
+    <div class="webgl-content">
+      <div id="unityContainer" style="width: 1067px; height: 600px"></div>
+      <div class="footer">
+        <div class="webgl-logo"></div>
+        <div class="fullscreen" onclick="unityInstance.SetFullscreen(1)"></div>
+        <div class="title">DICETOPIA</div>
+      </div>
+      <br><br>
+      <h3>遊び方</h3>
+      <p>中央の部屋にある青い装置を敵から守ろう！！</p>
+      <p>四方の部屋にある緑の装置にエネルギーを送ると起動するシールドを活用しよう！</p>
+      <br><br>
+      <h3>操作方法</h3>
+      <nobr>キーボード：</nobr>
+      <img src="./ExplainPicture/juuzi.png"> 移動,  <img src="./ExplainPicture/w.png"> サイコロを転がす， <img src="./ExplainPicture/S.png"> 攻撃， <img src="./ExplainPicture/AD.png"> カーソルを動かす</img>
+      <br><br>
+      <p>キーボード：</p>
+      <p>十字ボタン ― 移動,  Y ― サイコロを転がす,  B ― 攻撃,  RB・LB ― カーソルを動かす</p>
+      <center>
+        <br><br>
+        <a href="../../index.html">-戻る-</a>
+        <br><br>
+      </center>
+
+    </div>
+  </body>
+</html>
